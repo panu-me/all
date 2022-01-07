@@ -4,7 +4,12 @@ body {
   color: #4e4e4e;
   font-family: "Poppins", sans-serif;
 }
-
+.cus {
+  color: #36b68a;
+}
+.cus:hover {
+  color: #259e74;
+}
 h1,
 h2,
 h3,
@@ -75,12 +80,17 @@ a:hover {
   margin-right: 4px;
   overflow: hidden;
 }
+.fifi {
+  width: 150px;
+  height: 150px;
+}
 
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
+  /* background-position: center center; */
 }
 @media (max-width: 1024px) {
   .bg-image {
@@ -1321,5 +1331,8 @@ footer .credits {
   margin-bottom: 0;
 }
 footer .credits a {
-  color: #fff;
+  color: #36b68a;
+}
+footer .credits a:hover {
+  color: #259e74;
 }
